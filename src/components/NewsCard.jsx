@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from '.././assets/DemoImage.jpeg';
+import Img from '.././assets/DemoImage.png';
 import './NewsCard.css'
 export default function NewsCard({title,urlToImage,description,url}) {
   return (
