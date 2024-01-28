@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# This is News application in react JS
+
+In this application i had used news API.
+
+There are some sample images below...
+## 01
+![Sample1](src/assets/sample1.png)
+
+## 02
+![Sample1](src/assets/sample2.png)
+
+## 03
+![Sample1](src/assets/sample3.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
