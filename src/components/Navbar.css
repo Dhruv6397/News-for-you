@@ -15,6 +15,7 @@
 .logo-div img{
     height: 40px;
     margin: 5px 0 5px 20px;
+    cursor: pointer;
 }
 .list-container{
     width: fit-content;

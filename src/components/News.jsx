@@ -49,7 +49,7 @@ function News() {
       return pages;
     }
     const fetchData = async()=>{
-        let raw = await fetch(`https://newsapi.org/v2/top-headlines?q=${search}&country=us&page=${page}&pagesize=${pageSize}&apiKey=c489b610bb4d45d7bbc1a147200cfee9`)
+        let raw = await fetch(`https://newsapi.org/v2/top-headlines?q=${search}&country=in&page=${page}&pagesize=${pageSize}&apiKey=c489b610bb4d45d7bbc1a147200cfee9`)
         let parsedData = await raw.json()
         setData(parsedData)
         setTotalPage(Math.ceil(parsedData.totalResults/pageSize))
@@ -68,7 +68,7 @@ function News() {
       <>
       <nav className='navbar-container'>
         <div className='logo-div'>
-            <img src={Logo} onClick={()=>{fetchData()}}alt='logop'/>
+            <img src={Logo} onClick={()=>{setPage(1)}}alt='logop'/>
         </div>
         <ul className='list-container'>
             <li>SPORTS</li>
